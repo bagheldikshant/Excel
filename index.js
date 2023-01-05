@@ -26,7 +26,8 @@ app.get("/data/:id", (req, res) => {
   });
 });
 
-// Replace the uri string with your MongoDB connection string
+// Code for importing csv file in mongodb
+
 
 // MongoClient.connect(uri, { useNewUrlParser: true }, function (err, client) {
 //   if (err) {
